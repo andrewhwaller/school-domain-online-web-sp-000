@@ -7,4 +7,8 @@ class School
 
   def add_student(student, grade_level)
   end
+
+  def grade
+   roster.key("9")
+  end
 end
