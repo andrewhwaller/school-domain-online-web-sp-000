@@ -5,10 +5,10 @@ class School
     @roster = {}
   end
 
-  def add_student(student, grade_level)
+  def add_student(student_name, student_grade)
   end
 
-  def grade(grade_level)
-   @roster[grade_level]
+  def grade(student_grade)
+   @roster[student_grade]
   end
 end
