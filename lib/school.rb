@@ -2,7 +2,7 @@ class School
 
   def initialize(name)
     @name = name
-    school.roster
+    School::roster
   end
 
   def add_student(student, grade_level)
