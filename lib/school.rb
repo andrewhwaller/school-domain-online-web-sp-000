@@ -1,8 +1,8 @@
 class School
-
+  roster = {}
+  
   def initialize(name)
     @name = name
-    School::roster
   end
 
   def add_student(student, grade_level)
