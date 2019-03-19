@@ -9,6 +9,6 @@ class School
   end
 
   def grade(student, grade_level)
-   roster.key(grade_level)
+   @roster.key(grade_level)
   end
 end
